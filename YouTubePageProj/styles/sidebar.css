@@ -1,0 +1,41 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 80px;
+  z-index: 200;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sidebar-link {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding-top: 5px;
+}
+.sidebar-link:hover {
+  background-color: rgb(234, 234, 234);
+}
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 12px;
+}
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  font-weight: 700;
+}
+.hamburger-menu {
+  cursor: pointer;
+}
+.hamburger-menu:hover {
+  background-color: gainsboro;
+  transform: scale(1.1);
+  width: 30px;
+}
